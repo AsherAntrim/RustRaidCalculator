@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 # Gets input from the user on what objects they are trying to raid
 def calculate_cost():
     sheet_door_num = float(sheetDoor_entry.get())
