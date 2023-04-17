@@ -308,13 +308,13 @@ exWoodWall_label.grid(row=9, column=0)
 exWoodWall_entry = tk.Entry(root, bg=button_color, fg=button_font_color)
 exWoodWall_entry.grid(row=9, column=1)
 
-# Create the output box
+# Create the total amount of sulfur output box
 cost_output_label = tk.Label(root, text="Total sulfur cost: ", bg=label_color, fg=label_font_color)
 cost_output_label.grid(row=10, column=0)
 cost_output = tk.Entry(root, bg=button_color, fg=button_font_color)
 cost_output.grid(row=10, column=1)
 
-# Create the output box
+# Create the node number output box
 node_output_label = tk.Label(root, text="Number of Nodes: ", bg=label_color, fg=label_font_color)
 node_output_label.grid(row=11, column=0)
 node_output = tk.Entry(root, bg=button_color, fg=button_font_color)
